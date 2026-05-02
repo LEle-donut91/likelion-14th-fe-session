@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 루트 */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Profile 컴포넌트 */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Profile 카드 */
+.card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.138);
+}
+
+/* Profile 내부의 이미지 컨테이너 */
+.img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+/* Profile 내부 이미지 */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 5가지 기분 버튼 Container */
+.mood-btns {
+  display: flex;
+  gap: 20px;
+}
+
+/* 각각의 기분 버튼 container */
+.mood-btns>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 각각의 기분 버튼 */
+.mood-btns button {
+  width: 50px;
+  height: 50px;
+  font-size: larger;
+}
+
+/* 일기 리스트 */
+.today-list {
+  display: flex;
+  gap: 20px;
+}
+
+/* 오늘 일기 Card */
+.today {
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(49, 49, 49);
+  color: white;
+}

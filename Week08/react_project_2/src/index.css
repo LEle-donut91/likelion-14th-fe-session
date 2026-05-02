@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 오늘 기분 입력 */
+input {
+  margin: 5px 0px;
+  width: 400px;
+  height: 50px;
+}
+
+/* 기록한 감정 목록 리스트 */
+.history-link:link,
+.history-link:visited,
+.history-link:hover,
+.history-link:active {
+  color:blue;
+}
