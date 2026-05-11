@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#411B1B, #0E0606);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 로그인 페이지 login-box 최소 너비, 높이 지정 */
+.login-box {
+  min-width: 60vh;
+  min-height: 60vh;
+}
+
+/* form-control (사용자 정보 입력) 높이 설정 */
+.form-control {
+  height: 50px;
+}
+
+/* form-control (사용자 정보 입력) placeholder 색상 */
+.form-control::placeholder {
+  color: #999;
+}
+
+/* 아코디언 버튼 아이콘 변경 */
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+/* 넷플릭스 로고 이미지 크기 (너비 설정) */
+img {
+  width: 200px;
+}
+
+/* 언어 드롭다운 버튼 스타일 지정 */
+.language-btn,
+.language-btn:hover {
+  background-color: transparent;
+  border: 1px solid #666;
+  color: white;
+  font-size: 14px;
+  padding: 6px 14px;
+  min-width: 120px;
+  text-align: left;
+}
